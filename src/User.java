@@ -8,6 +8,6 @@ public class User {
     public void printX() { System.out.println(used.x); }
     public void printXAndY() {
         printX();
-        System.out.println(this.y);
+        used.printY(this.y);
     }
 }

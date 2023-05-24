@@ -1,3 +1,4 @@
 public class Base {
-    public Base() {}
+    protected int x;
+    public Base() { this.x = 0; }
 }

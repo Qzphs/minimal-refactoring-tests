@@ -1,4 +1,7 @@
-package numbers;
+package users;
+
+import numbers.Base;
+import numbers.Derived1;
 
 public class User {
     private int y;

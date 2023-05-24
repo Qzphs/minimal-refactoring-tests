@@ -1,5 +1,6 @@
 public class User {
     private int y;
+    private int z;
     private Base used;
     public User() {
         this.used = new Derived1();
@@ -10,5 +11,5 @@ public class User {
         printX();
         used.printY(this.y);
     }
-    public void printZ() { System.out.println(used.z); }
+    public void printZ() { System.out.println(this.z); }
 }

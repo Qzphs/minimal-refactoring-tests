@@ -1,3 +1,5 @@
+package numbers;
+
 public class User {
     private int y;
     private int z;

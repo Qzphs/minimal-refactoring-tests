@@ -4,4 +4,8 @@ public class Derived1 extends Base {
         super();
         this.x = x;
     }
+    public void printXTwoTimes() {
+        printX();
+        printX();
+    }
 }

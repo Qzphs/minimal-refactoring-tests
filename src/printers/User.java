@@ -3,7 +3,7 @@ package printers;
 import numbers.Base;
 import numbers.Derived1;
 
-public class User {
+public class User implements Printer {
     private int y;
     private int z;
     private Base used;

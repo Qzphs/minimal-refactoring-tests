@@ -10,4 +10,5 @@ public class User {
         printX();
         used.printY(this.y);
     }
+    public void printZ() { System.out.println(used.z); }
 }
